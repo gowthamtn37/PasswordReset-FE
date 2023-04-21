@@ -1,0 +1,13 @@
+body {
+  min-height: 100vh;
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=8374d4&c2=b7a43b&gt=l&gd=dtl
+*/
+  background: rgba(131, 116, 212, 1);
+  background: linear-gradient(
+    135deg,
+    rgba(131, 116, 212, 1),
+    rgba(183, 164, 59, 1)
+  );
+}
