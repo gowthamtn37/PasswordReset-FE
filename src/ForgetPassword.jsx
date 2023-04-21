@@ -22,6 +22,7 @@ export function ForgetPassword() {
           body: JSON.stringify(email),
           headers: { "Content-Type": "application/json" },
         });
+
         if (data.status === 401) {
           setAlert1("true");
         } else if (data.status === 200) {
