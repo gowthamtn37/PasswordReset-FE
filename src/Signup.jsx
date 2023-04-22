@@ -99,6 +99,8 @@ export function Signup() {
           name="row-radio-buttons-group"
           onChange={handleChange}
           value={values.gender}
+          error={touched.gender && errors.gender}
+          helperText={errors.gender ? errors.gender : null}
         >
           <FormControlLabel
             name="gender"
