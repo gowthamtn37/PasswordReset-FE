@@ -101,6 +101,7 @@ function ResetPassword() {
         />
 
         <TextField
+          type="password"
           name="password"
           value={values.password}
           onChange={handleChange}
@@ -113,6 +114,7 @@ function ResetPassword() {
           variant="outlined"
         />
         <TextField
+          type="password"
           name="confirm_password"
           value={values.confirm_password}
           onChange={handleChange}
