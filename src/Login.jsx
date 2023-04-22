@@ -69,6 +69,7 @@ export function Login() {
             }
           />
           <TextField
+            type="password"
             name="password"
             label="password"
             value={values.password}
