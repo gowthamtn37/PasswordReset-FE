@@ -90,3 +90,46 @@
   justify-content: center;
   align-items: center;
 }
+
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.phone-picture {
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
+}
+
+.phone-container {
+  background-color: white;
+  width: 355px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 1px 2px 13px;
+}
+
+.phone-name {
+  padding: 16px;
+  font-size: 48px;
+  margin-bottom: 0px;
+
+  /* font-weight: bold; */
+}
+
+.phone-company {
+  /* padding: 16px; */
+  font-size: 32px;
+  color: grey;
+  /* font-weight: bold; */
+  margin-top: 0px;
+}
+.mobileList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  gap: 1rem;
+}

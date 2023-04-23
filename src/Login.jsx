@@ -25,10 +25,14 @@ export function Login() {
           body: JSON.stringify(user),
           headers: { "Content-Type": "application/json" },
         });
+
         if (data.status === 401) {
           setAlert("true");
         } else {
           setAlert("false");
+          const result = await data.json();
+          console.log(result);
+          localStorage.setItem("token", result.token);
           navigate("/dashboard");
         }
       },
