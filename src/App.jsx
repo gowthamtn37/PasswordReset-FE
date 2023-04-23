@@ -8,7 +8,7 @@ import LogoutIcon from "@mui/icons-material/Logout";
 import IconButton from "@mui/material/IconButton";
 import { useEffect, useState } from "react";
 import { API } from "./Api";
-
+import AccountBoxIcon from "@mui/icons-material/AccountBox";
 function App() {
   return (
     <div className="App">
@@ -53,7 +53,11 @@ function Phonelist() {
   return (
     <div className="phonelist-container">
       <div className="heading-container">
+        <IconButton>
+          <AccountBoxIcon />
+        </IconButton>
         <h1>Phone Lists</h1>
+
         <IconButton
           className="logout-btn"
           onClick={() => {
