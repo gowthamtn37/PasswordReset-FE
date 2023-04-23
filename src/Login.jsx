@@ -31,7 +31,7 @@ export function Login() {
         } else {
           setAlert("false");
           const result = await data.json();
-          console.log(result);
+          //console.log(result);
           localStorage.setItem("token", result.token);
           navigate("/dashboard");
         }
